@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* semibold */
+  font-size: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* semibold */
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* semibold */
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* semibold */
+  font-size: 15px;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* semibold */
+  font-size: 10px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; /* regular */
+  font-size: 25px;
+}
+
+.seccao-container {
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 100px;
+}
+
+.texto-container {
+  width: 100%; /* Ocupará toda a largura na linha */
+  max-width: 50%; /* Máximo de 50% da tela */
+  box-sizing: border-box; /* Inclui o padding no cálculo do tamanho total */
+  padding-right: 50px; /* Espaçamento entre os contêineres */
+}
+
+.texto-container h2 {
+  color: #515151;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.texto-container p {
+  color: #515151;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.imagem-container {
+  width: 100%;
+  max-width: 50%;
+  box-sizing: border-box; 
+  margin-top: 20px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.imagem-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+
+  h1 {
+   font-size: 30px;
+  } 
+
+  .texto-container,
+  .imagem-container {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0; 
   }
-  to {
-    transform: rotate(360deg);
+
+  .imagem-container img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    display: block;
+  }
+
+  .seccao-container {
+    padding: 100px 60px;
   }
 }

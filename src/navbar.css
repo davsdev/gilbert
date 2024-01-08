@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Estilos Globais */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px; /* Espaço lateral desejado */
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.logo {
+  /* Estilos para o logo */
+}
+
+.menu-icon {
+  display: none;
+}
+
+.nav-elements {
+  /* Estilos para os elementos de navegação */
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #515151;
+  text-decoration: none;
+}
+
+.nav-elements ul a.active {
+  color: #E65775;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-elements ul a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #E65775;
+}
+
+@media (max-width: 600px) {
+  .menu-icon {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+  }
+
+  .hamburger-bar {
+    width: 30px;
+    height: 4px;
+    background-color: #515151;
+  }
+
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    background-color: #FFFFFF;
+    width: 0;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+}
