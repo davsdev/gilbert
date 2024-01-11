@@ -21,13 +21,13 @@ h3 {
 h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600; /* semibold */
-  font-size: 15px;
+  font-size: 17px;
 }
 
 h5 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600; /* semibold */
-  font-size: 10px;
+  font-size: 12px;
 }
 
 p {
@@ -35,6 +35,7 @@ p {
   font-weight: 400; /* regular */
   font-size: 25px;
 }
+
 
 .seccao-container {
   margin: 0;
@@ -79,6 +80,65 @@ p {
   height: auto;
   display: block;
 }
+
+
+/* Estilos para componente Equipe */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh; /* Ajuste conforme necessário */
+  padding: 0 50px; 
+  justify-content:space-evenly
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  border-radius: 40px;
+  box-shadow: 0px 4px 15px #515151;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.info-container {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h3, h4, h5 {
+  color: #515151;
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 25px; /* Ajuste conforme necessário */
+  margin-right: 10px;
+}
+
+/* Fim */
+
+
 
 @media screen and (max-width: 768px) {
 

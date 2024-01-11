@@ -45,7 +45,7 @@ function Carrossel() {
     overflow: 'hidden',
     maxWidth: '70%',
     margin: '0 auto',
-    padding: '0 50px',
+    padding: '10px 10px 60px',
   };
 
   const carouselContainerStyle = {
