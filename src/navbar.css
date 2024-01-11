@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 50px; /* Espaço lateral desejado */
+  padding: 40px 50px;
   box-sizing: border-box;
 }
 

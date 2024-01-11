@@ -5,7 +5,7 @@ import dashboard from '../images/dashboard.png'
 function Dashboard() {
     return (
       <div className="seccao-container">
-        <div className="texto-container">
+        <div className="texto-container-dashboard">
           <h2>
             <span style={{ color: '#E65775' }}>Monitore</span> os seus resultados
           </h2>
