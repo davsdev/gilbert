@@ -4,6 +4,7 @@ import Carrossel from './components/carrossel.js';
 import Navbar from './components/navbar.js';
 import Dashboard from './components/dashboard.js';
 import Equipe from './components/equipe.js';
+import Footer from './components/footer.js';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navbar />
       <Dashboard />
       <Carrossel />
-      <Equipe />
+      <Equipe id="equipe" /> 
+      <Footer />
     </BrowserRouter>
   );
 }

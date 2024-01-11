@@ -33,10 +33,10 @@ const Navbar = () => {
               <NavLink to="/projects" activeClassName="active">Eventos</NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeClassName="active">Contato</NavLink>
+              <NavLink to="/equipe" activeClassName="active">Contato</NavLink>
             </li>
             <li>
-              <NavLink to="/contact" activeClassName="active">Login</NavLink>
+            <NavLink to="/contact" activeClassName="active" style={{ color: '#5B46D4', fontWeight: '600' }}>Login</NavLink>
             </li>
           </ul>
         </div>

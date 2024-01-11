@@ -23,7 +23,7 @@ function Equipe() {
           <h3>Laiza Vieira</h3>
           <h4>CEO</h4>
           <h5>Chief Executive Officer</h5>
-          <div className="social-icons">
+          <div className="social-icons-equipe">
             <a href="URL_DO_LINKEDIN" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="LinkedIn" />
             </a>
@@ -40,7 +40,7 @@ function Equipe() {
           <h3>Rogerio Alencar</h3>
           <h4>CTO</h4>
           <h5>Chief Technology Officer</h5>
-          <div className="social-icons">
+          <div className="social-icons-equipe">
             <a href="URL_DO_LINKEDIN" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="LinkedIn" />
             </a>
@@ -57,7 +57,7 @@ function Equipe() {
           <h3>Thiago Silva</h3>
           <h4>COO</h4>
           <h5>Chief Operating Officer</h5>
-          <div className="social-icons">
+          <div className="social-icons-equipe">
             <a href="URL_DO_LINKEDIN" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="LinkedIn" />
             </a>
