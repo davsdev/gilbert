@@ -34,6 +34,10 @@ h5 {
 
 /*Fim*/
 
+.hero {
+  padding-top: 60px;
+}
+
 /*Estilos para o componente beneficios*/
 
 .beneficios-container {
@@ -158,7 +162,11 @@ h5 {
   margin-left: 20px;
 }
 
-h3, h4, h5 {
+h1 {
+  line-height: 1.1;
+}
+
+h1, h3, h4, h5 {
   color: #515151;
   margin: 0;
 }
@@ -236,14 +244,24 @@ h4 {
 @media screen and (max-width: 768px) {
 
   h1 {
-   font-size: 30px;
+    display:none;
   } 
 
   h2 {
     text-align: center;
   } 
+  
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 1.1;
+    color: #E65775;
+  } 
 
-
+  .hero {
+    padding-top: 140px;
+  }
   
 .seccao-container,
 .secao-container-dashboard {
