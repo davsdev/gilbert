@@ -5,19 +5,27 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+li:hover {
+  cursor:pointer;
+}
+
 .container {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 50px;
+  padding: 10px 50px;
   box-sizing: border-box;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra acinzentada */
 }
 
 .navbar {
-  height: 60px;
+  height: 100px;
   background-color: #FFFFFF;
-  position: relative;
+  position: fixed; /* Alterado para "fixed" */
+  top: 0; /* Posição fixa no topo */
+  width: 100%; /* Para ocupar a largura total da tela */
+  z-index: 1000; /* Z-index alto para garantir que fique acima de outros elementos */
 }
 
 .logo {
@@ -66,6 +74,11 @@ body {
 }
 
 @media (max-width: 600px) {
+
+  ul:hover{
+    cursor: pointer;
+  }
+
   .menu-icon {
     display: flex;
     cursor: pointer;

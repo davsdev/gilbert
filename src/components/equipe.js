@@ -11,7 +11,8 @@ import profile3 from '../images/profile3.jpeg';
 
 function Equipe() {
   return (
-    <>
+    <div id="equipe">
+      
     <h1 style={{ textAlign: 'center' }}>
     <span style={{ color: '#E65775' }}>Conheça</span>{' '}
     <span style={{ color: '#515151' }}>o nosso time</span>
@@ -68,7 +69,8 @@ function Equipe() {
         </div>
       </div>
     </div>
-    </>
+
+    </div>
   );
 }
 

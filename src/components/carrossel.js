@@ -54,6 +54,8 @@ function Carrossel() {
   };
 
   return (
+    <div id="galeria">
+      
     <div style={outerContainerStyle}>
       <h1 style={{ textAlign: 'center' }}>
         <span style={{ color: '#E65775' }}>Acompanhe</span>{' '}
@@ -110,6 +112,8 @@ function Carrossel() {
           </div>
         </Carousel>
       </div>
+    </div>
+
     </div>
   );
 }

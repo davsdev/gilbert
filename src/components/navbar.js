@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import logo from '../images/logo.png';
 import '../navbar.css';
 
@@ -24,19 +24,35 @@ const Navbar = () => {
         <div className={`nav-elements ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/" activeClassName="active">Home</NavLink>
+            <a href="#apresentacao">Home</a>
             </li>
             <li>
-              <NavLink to="/blog" activeClassName="active">Nossa solução</NavLink>
+            <Link to="apresentacao" smooth={true} duration={1300}>
+            Nossa solução
+            </Link>            
             </li>
             <li>
-              <NavLink to="/projects" activeClassName="active">Eventos</NavLink>
+            <Link to="galeria" smooth={true} duration={1300}>
+            Eventos
+            </Link>             
             </li>
             <li>
-              <NavLink to="/equipe" activeClassName="active">Contato</NavLink>
+            <Link to="equipe" smooth={true} duration={1300}>
+            Contato
+            </Link>            
             </li>
             <li>
-            <NavLink to="/contact" activeClassName="active" style={{ color: '#5B46D4', fontWeight: '600' }}>Login</NavLink>
+            <a href="" 
+            activeClassName="active" 
+            style={{
+              color: '#FFFFFF',
+              fontWeight: '600',
+              backgroundColor: '#5B46D4',
+              borderRadius: '25px',  
+              padding: '10px'  
+            }}>
+            Login
+            </a>
             </li>
           </ul>
         </div>
