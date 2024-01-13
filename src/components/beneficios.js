@@ -8,7 +8,6 @@ import simbolo from '../images/simbolosaude.png'
 const Beneficios = () => {
   return (
     <div id="apresentacao">
-
     <div className="seccao-container">
     <div className="imagem-container">
       <img src={simbolo} alt="simbolo" />
@@ -35,8 +34,6 @@ const Beneficios = () => {
       Ela é composta por um Kit de medição (esfignomanômetro, estetoscópio, termômetro e oxímetro) e um sistema tecnológico que usa o protocolo de Manchester e uma interação com o paciente (via chatbot) para definir a prioridade e necessidade de atendimento de forma autônoma. Além disso, também oferecemos equipamentos de impressão de pulseiras de atendimento.</p>
     </div>
     </div>
-
-
     <div className="beneficios-container">
       <div className="beneficio">
         <h4>Impacto social na saúde pública</h4>

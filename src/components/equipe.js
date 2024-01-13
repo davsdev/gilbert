@@ -1,8 +1,9 @@
 import React from 'react';
 import '../App.css';
-import '../App.css'; // Importe o arquivo de estilo
 import linkedin from '../images/linkedin.png'
 import instagram from '../images/instagram.png'
+
+/* Importe ou atualize abaixo as fotos da equipe */
 
 import profile1 from '../images/profile1.jpeg';
 import profile2 from '../images/profile2.png';
@@ -25,10 +26,10 @@ function Equipe() {
           <h4>CEO</h4>
           <h5>Chief Executive Officer</h5>
           <div className="social-icons-equipe">
-            <a href="URL_DO_LINKEDIN" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/laiza-vieira-611b2754/" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="LinkedIn" />
             </a>
-            <a href="URL_DO_INSTAGRAM" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/laizavieira49/" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="Instagram" />
             </a>
           </div>
@@ -42,10 +43,10 @@ function Equipe() {
           <h4>CTO</h4>
           <h5>Chief Technology Officer</h5>
           <div className="social-icons-equipe">
-            <a href="URL_DO_LINKEDIN" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/rogeriofilho/" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="LinkedIn" />
             </a>
-            <a href="URL_DO_INSTAGRAM" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/rogerioalencarfilho/" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="Instagram" />
             </a>
           </div>
@@ -59,10 +60,10 @@ function Equipe() {
           <h4>COO</h4>
           <h5>Chief Operating Officer</h5>
           <div className="social-icons-equipe">
-            <a href="URL_DO_LINKEDIN" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/thiagosilvatj/" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="LinkedIn" />
             </a>
-            <a href="URL_DO_INSTAGRAM" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/thiagosilvatj_/" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="Instagram" />
             </a>
           </div>

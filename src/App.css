@@ -34,9 +34,21 @@ h5 {
 
 /*Fim*/
 
-.hero {
+/*Ajustes de espaçamento acima ou abaixo das seções*/
+
+#hero {
   padding-top: 60px;
 }
+
+#galeria {
+  padding-top: 30px;
+}
+
+#equipe {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 /*Estilos para o componente beneficios*/
 
@@ -69,6 +81,8 @@ h5 {
 /*Fim*/
 
 
+/*Estilos para componentes de imagem e texto*/
+
 .seccao-container {
   margin: 10px 50px;
   display: flex;
@@ -78,15 +92,15 @@ h5 {
 }
 
 .texto-container {
-  width: 100%; /* Ocupará toda a largura na linha */
-  max-width: 50%; /* Máximo de 50% da tela */
-  box-sizing: border-box; /* Inclui o padding no cálculo do tamanho total */
+  width: 100%;
+  max-width: 50%; 
+  box-sizing: border-box;
 }
 
 .texto-container-dashboard {
-  width: 100%; /* Ocupará toda a largura na linha */
-  max-width: 50%; /* Máximo de 50% da tela */
-  box-sizing: border-box; /* Inclui o padding no cálculo do tamanho total */
+  width: 100%; 
+  max-width: 50%; 
+  box-sizing: border-box; 
   padding-left: 40px;
 }
 
@@ -120,6 +134,8 @@ h5 {
   display: block;
 }
 
+/*Fim*/
+
 
 /* Estilos para componente Equipe */
 
@@ -128,7 +144,7 @@ h5 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  height: 100%; /* Ajuste conforme necessário */
+  height: 100%; 
   padding: 0 50px; 
   justify-content:space-evenly;
   margin-bottom: 40px
@@ -164,6 +180,7 @@ h5 {
 
 h1 {
   line-height: 1.1;
+  padding-bottom: 20px;
 }
 
 h1, h3, h4, h5 {
@@ -177,7 +194,7 @@ h1, h3, h4, h5 {
 }
 
 .social-icons-equipe img {
-  width: 25px; /* Ajuste conforme necessário */
+  width: 25px; 
   margin-right: 10px;
 }
 
@@ -190,7 +207,7 @@ h1, h3, h4, h5 {
   border-top: 1px solid #515151;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff; /* Cor de fundo do footer, ajuste conforme necessário */
+  background-color: #ffffff; 
   padding: 0 50px;
 }
 
@@ -199,7 +216,7 @@ h1, h3, h4, h5 {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  width: 100%; /* Ajuste conforme necessário para o espaçamento entre as divs */
+  width: 100%;
 }
 
 .footer-section-a h4 {
@@ -209,11 +226,10 @@ h1, h3, h4, h5 {
 h4 {
   color: #515151;
   text-align: left;
-  margin-bottom: 10px;
 }
 
 .button-image {
-  width: 300px; /* Ajuste conforme necessário */
+  width: 300px; 
 }
 
 .footer-section-b {
@@ -231,7 +247,7 @@ h4 {
 }
 
 .social-icons img {
-  width: 40px; /* Ajuste conforme necessário */
+  width: 40px; 
   margin: 10px;
 }
 
@@ -243,23 +259,27 @@ h4 {
 
 @media screen and (max-width: 768px) {
 
-  h1 {
+  #hero h1 {
     display:none;
   } 
 
-  h2 {
-    text-align: center;
-  } 
-  
-  h3 {
+  #hero h3 {
     font-size: 30px;
     text-align: center;
     padding-top: 10px;
     line-height: 1.1;
     color: #E65775;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    text-align: center;
   } 
 
-  .hero {
+  #hero {
     padding-top: 140px;
   }
   
@@ -298,7 +318,7 @@ h4 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 100%; /* Ajuste conforme necessário para o espaçamento entre as divs */
+    width: 100%; 
   }
 
   .footer-section-a h4 {
@@ -310,7 +330,7 @@ h4 {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    width: 100%; /* Ajuste conforme necessário para o espaçamento entre as divs */
+    width: 100%; 
   }
 
   .social-icons {

@@ -5,7 +5,7 @@ import totem from '../images/totem.png'
 
 function Hero() {
     return (
-      <div className="hero"> 
+      <div id="hero"> 
       <div className="seccao-container">
         <div className="texto-container-dashboard">
           <h1>

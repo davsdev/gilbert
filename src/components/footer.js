@@ -13,16 +13,19 @@ function Footer() {
           recursos valiosos, e a necessidade de uma triagem eficiente,{' '}
           <span style={{ color: '#E65775' }}>fale conosco.</span>
         </h4>
-        <a href="URL_DO_SEU_BOTAO" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/+558183643267" target="_blank" rel="noopener noreferrer">
           <img src={botaofooter} alt="Botão" className="button-image" />
         </a>
       </div>
       <div className="footer-section-b">
         <div className="social-icons">
           <h4>Nossas redes:</h4>
-          <img src={linkedinfooter} alt="LinkedIn" />
-          <img src={instagramfooter} alt="Instagram" />
-        </div>
+          <a href="https://wa.me/+558183643267" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinfooter} alt="Botão" className="button-image" />
+          </a>
+          <a href="https://www.instagram.com/gilberthealthtech/" target="_blank" rel="noopener noreferrer">
+          <img src={instagramfooter} alt="Botão" className="button-image" />
+          </a>        </div>
         <h4>&copy; 2023 Gilbert</h4>
       </div>
     </div>

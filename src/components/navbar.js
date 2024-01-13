@@ -24,7 +24,9 @@ const Navbar = () => {
         <div className={`nav-elements ${showNavbar && 'active'}`}>
           <ul>
             <li>
-            <a href="#apresentacao">Home</a>
+            <Link to="hero" smooth={true} duration={1300}>
+            Home
+            </Link> 
             </li>
             <li>
             <Link to="apresentacao" smooth={true} duration={1300}>
@@ -42,7 +44,8 @@ const Navbar = () => {
             </Link>            
             </li>
             <li>
-            <a href="" 
+            
+            <a href="https://gilbert.satecnologia.com.br/" 
             activeClassName="active" 
             style={{
               color: '#FFFFFF',
